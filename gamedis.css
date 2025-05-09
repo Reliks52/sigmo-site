@@ -74,6 +74,9 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     padding: 20px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
 }
 .left-sidebar {
     grid-column:1 ;
@@ -89,7 +92,8 @@ nav a:hover {
     padding: 0px;
 }
 .maim-information {
-    font-size: 25px;
+    font-size: 1.3em;
+    line-height: 1.6;
 }
 .preTitle {
     font-size: 1.8em;
@@ -99,7 +103,15 @@ nav a:hover {
     background: color #103376;;
     font-size:25px;
     border-radius:25px;
-    padding:14px 110px;
+    padding:14px 100px;
     margin: 0px 200px;
     box-shadow:0 0 11px -2px #fff, inset 0 0 9px 0px #6248ac8f;
+}
+
+.hr1 {
+    margin-top: 1145px;
+}
+.moreInf p {
+    margin-top: 150px;
+    position:absolute;
 }
