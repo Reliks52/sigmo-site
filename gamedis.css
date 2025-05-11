@@ -70,12 +70,15 @@ nav a {
 nav a:hover {
     color: #ff7e5f;
 }
+
 .sidebar {
     background-color: rgba(255, 255, 255, 0.2);
     padding: 20px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    align-content: center;
     
 }
 .left-sidebar {
@@ -85,9 +88,14 @@ nav a:hover {
 .right-sidebar {
     grid-column: 3;
 }
+.right-sidebar a {
+    color: #fff;
+
+}
+
 .main-container {
     display: grid;
-    grid-template-columns: 200px 1fr 200px;
+    grid-template-columns: 230px 1fr 230px;
     gap: 20px;
     padding: 0px;
 }
@@ -103,7 +111,7 @@ nav a:hover {
     background: color #103376;;
     font-size:25px;
     border-radius:25px;
-    padding:14px 100px;
+    padding:14px 70px;
     margin: 0px 200px;
     box-shadow:0 0 11px -2px #fff, inset 0 0 9px 0px #6248ac8f;
 }
@@ -114,4 +122,66 @@ nav a:hover {
 .moreInf p {
     margin-top: 150px;
     position:absolute;
+}
+
+img {
+    display: block;
+     margin: 10px auto;
+    max-width: 900px;
+    height: auto px;
+    border:2px solid #ffffff63;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ 
+}
+.important {
+    background: #ff7f5f8a;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.important p {
+    padding: 10px 20px;
+    margin: 0;
+    color: white;
+}
+
+.important h4 {
+    margin-right: 20px;
+    display: flex;
+    margin-right: 250px;
+    background: #ebdb06c5;
+    width: 140px;
+    height: auto;
+    border-radius: 10px;
+   justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+.attiton {
+    background: #0f258694;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.attiton p {
+    padding: 10px 20px;
+    margin: 0;
+    color: white;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.attiton h4 {
+    margin-right: 20px;
+    display: flex;
+    margin-right: 250px;
+    background: #0ce9dec5;
+    width: 230px;
+    padding: 5px 2px;
+    height: auto;
+    border-radius: 10px;
+   justify-content: center;
+    color: white;
+    font-weight: bold;
 }
