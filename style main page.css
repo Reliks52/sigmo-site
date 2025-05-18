@@ -291,12 +291,3 @@ main {
     line-height: 1.5;
     color: var(--text-color);
 }
-
-footer {
-    margin: 0 0 0;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 20px 170px;
-    text-align: center;
-    color: var(--text-color);
-    margin-top: 50px;
-}
