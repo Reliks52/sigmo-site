@@ -102,7 +102,9 @@
         padding: 10px 15px;
         border-radius: 8px 8px 0 0;
     }
-    
+    .important h4{
+        padding: 10px 1px;
+    }
     .important p, 
     .attiton p, 
     .result p {
@@ -198,6 +200,36 @@
 }
 
 @media (max-width: 480px) {
+       /* Уменьшаем логотип "Главная" */
+    .logo {
+        font-size: 1.5em !important; /* Уменьшаем размер */
+        margin-bottom: 10px; /* Добавляем отступ снизу */
+    }
+    
+    /* Адаптируем всю шапку */
+    header {
+        flex-direction: column; /* Элементы в столбик */
+        padding: 10px 5px !important; /* Уменьшаем отступы */
+        top: 5px;
+        left: 5px;
+        right: 5px;
+    }
+    
+    /* Адаптируем навигационное меню */
+    nav ul {
+        flex-wrap: wrap; /* Разрешаем перенос элементов */
+        justify-content: center; /* Центрируем элементы */
+    }
+    
+    nav li {
+        margin: 3px 5px; /* Уменьшаем отступы между пунктами */
+    }
+    
+    nav a {
+        font-size: 0.9em !important; /* Уменьшаем размер между текстом */
+        padding: 3px 5px; /* Добавляем отступы вокруг текста */
+    }
+}
     h1 {
         color: rgb(179, 15, 15);
         font-size: 22px;
@@ -208,7 +240,7 @@
     .sidebar {
         display: none !important;
     }
-}
+
 body, html{
   scroll-behavior: smooth;
 }
