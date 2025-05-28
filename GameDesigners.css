@@ -8,7 +8,7 @@
  @media (max-width: 1303px) {
     h1 {
         font-size: 70px;
-        color: green;
+      
     }
     .main-container {
         grid-template-columns: 1fr !important;
@@ -37,7 +37,7 @@
     }
    h1 {
         font-size: 53px;
-        color: navy;
+     
     }
     h2 {
         font-size: 40px;
@@ -172,7 +172,7 @@
     }
     h1 {
         font-size: 33px;
-        color: #ff7e5f;
+      
     }
     .main-container {
         grid-template-columns: 1fr !important;
@@ -193,7 +193,7 @@
      }
     h1 {
         font-size: 25px;
-        color: aqua;
+        
     }
     .main-container {
         grid-template-columns: 1fr !important;
@@ -216,7 +216,7 @@
         justify-content: center;
     }
     h1 {
-        color: rgb(179, 15, 15);
+        
         font-size: 22px;
     }
     .main-container {
