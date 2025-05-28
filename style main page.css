@@ -5,6 +5,7 @@
     --text-color: #ffffff;
     --background-color: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
 }
+   
 body {
     background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20x2%3D%221%22%20y1%3D%220%22%20y2%3D%221%22%20gradientTransform%3D%22rotate%2845%29%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%231e3561%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%230c2e699a%22%2F%3E%3C%2FlinearGradient%3E%3Cpattern%20id%3D%22b%22%20width%3D%2224%22%20height%3D%2224%22%20patternUnits%3D%22userSpaceOnUse%22%3E%3Ccircle%20fill%3D%22%23fff231f%22%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2212%22%2F%3E%3C%2Fpattern%3E%3C%2Fdefs%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url%28%23a%29%22%2F%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url%28%23b%29%22%20fill-opacity%3D%220.1%22%2F%3E%3C%2Fsvg%3E");
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,7 +13,10 @@ body {
     padding-top: 80px; 
     color:#fff;
 }
-
+a {
+    color: #fff;
+    text-decoration: none;
+}
 header {
     position: fixed;
     top: 20px;
@@ -46,8 +50,9 @@ header:hover {
     color: var(--accent-color);
 }
 
-.logo {
-    font-size: 3em;
+.bruh2 {
+    color: #ff7e5f;
+    font-size: 1.2em;
     font-weight: bold;
     color: var(--text-color);
     text-decoration: none;
@@ -92,8 +97,9 @@ main {
 }
 
 .steav, .steave {
-    width: 150px;
-    height: 150px;
+    width: 10%;
+    height: 10%;
+    object-fit: contain;
 
 }
 .bait-content{
@@ -107,10 +113,11 @@ main {
 }
 
 .bait1, .bait2 {
-    width: 150px;
-    height: 200px;
+    width: 10%;
+    height: 10%;
     margin-top: -10rem;
     gap: 1rem;
+    object-fit: contain;
 }
 
 .bait2 {
@@ -132,7 +139,7 @@ main {
     color: var(--accent-color);
 }
 
-#line1 {
+.line1 {
     border: none;
     border-radius: 30px;
     border-top: 6px solid var(--text-color);
@@ -148,7 +155,9 @@ main {
     margin: 0 100px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-
+.termin2 {
+    display: none;
+}
 .image-container {
     flex: 1;
     text-align: center;
@@ -162,7 +171,7 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.image-container p {
+.image-container strong {
     margin-top: 10px;
     font-size: 25px;
 }
@@ -172,13 +181,13 @@ main {
     padding-left: 20px;
 }
 
-.text-container h2 {
-    font-size: 16px;
+.text-container strong {
+    font-size: 22px;
     margin-bottom: 15px;
 }
 
-.text-container p {
-    font-size: 16px;
+.text-container em {
+    font-size: 25px;
     line-height: 1.5;
 }
 
@@ -191,14 +200,14 @@ main {
 
 .pyro{
     margin-top: 5rem;
-    width: 170px;
-    height: 150px;
+    width: 10%;
+    height: 10%;
 }
 
 .pyroLikes{
     margin-top: 3rem;
-    width: 190px;
-    height: 160px;
+    width: 15%;
+    height: 10%;
 }
 
 #games-title {
@@ -247,7 +256,7 @@ main {
     margin: 0;
 }
 
-#termin {
+.termin {
     background: color #103376;
     font-size:33px;
     border-radius:25px;
@@ -288,3 +297,168 @@ main {
     color: var(--text-color);
 }
 
+@media  (max-width: 1303px) {
+    h1{
+        font-size: 70px;
+        color: green;
+    }
+}
+@media (max-width: 1200px) {
+    
+   .termin-content {
+        margin:  0 50px;
+    }
+    .image-container img {
+        width: 190px;
+    }
+    .image-container strong {
+        font-size: 20px;
+    }
+    .text-container p {
+        font-size: 25px;
+    }
+    .text-container {
+    flex: 4;
+    padding-left: 0px;
+}
+  .minecraft-text p {
+    margin-right: 40px;
+    font-size: 30px;
+}
+ .tf2-text p {
+    margin-right: 40px;
+    font-size: 30px;
+}
+.tf2-text a {
+    
+    font-size: 30px;
+}
+    h1 {
+        font-size: 53px;
+        color: navy;
+    }
+    h2 {
+        font-size: 40px;
+    }
+     p,a, em{
+    font-size: 40px;
+   }
+}
+
+@media  (max-width: 992px) {
+    
+    .termin {
+    display:none;
+   }
+   .termin2 {
+    display:block;
+    padding: 0px 0px;
+    }
+    .navigate a  {
+        font-size: 1.1em;
+    }
+    .termin-content {
+        margin:  0 50px;
+    }
+    .image-container img {
+        width: 190px;
+    }
+    .image-container strong {
+        font-size: 20px;
+    }
+    .text-container p {
+        font-size: 25px;
+    }
+    .text-container {
+    flex: 4;
+    padding-left: 0px;
+}
+ .bait1 {
+    margin-bottom: -5rem;
+ } 
+ .bait2 {
+    margin-bottom: -5rem;
+ } 
+   p,a, em{
+    font-size: 25px;
+   }
+   
+   li {
+    font-size: 10.8px;
+   }
+    h1 {
+        font-size: 33px;
+        color: #ff7e5f;
+    }
+    h2 {
+        font-size: 35px;
+    }
+   
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 25px;
+    }
+    .navigate a  {
+        font-size: 0.9em;
+    }
+   .termin {
+    display:none;
+   }
+   .termin2 {
+    display:block;
+    padding: 0px 0px;
+   }
+ .termin2 em {
+        font-size: 14px;
+   }
+   .termin2 strong {
+        font-size: 14px;
+   }
+     .image-container img {
+        width: 120px;
+    }
+    .image-container strong {
+        font-size: 12px;
+        margin:0;
+        padding:0;
+    }
+    h1 {
+        font-size: 25px;
+        color: aqua;
+    }
+    .minecraft-imagine img {
+        width: 210%;
+  
+    }
+    .minecraft-imagine{
+    
+       padding-right: 75px;
+    }
+    .minecraft-text p {
+    margin-right: 40px;
+    font-size: 20px;
+}
+    .tf2-imagine img {
+         width: 490%;
+         margin:0;
+         padding: 0;
+    }
+    .tf2-imagine {
+       padding-right: 85px;
+    }
+    .tf2-text {
+    text-align: center;
+    margin-left: 90px;
+}
+.tf2-text p {
+ font-size: 20px;
+}
+}   
+
+@media (max-width: 480px) {
+     h1 {
+        color: rgb(179, 15, 15);
+    }
+}
